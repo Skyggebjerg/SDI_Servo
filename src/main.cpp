@@ -7,6 +7,7 @@
 AtomMotion Atom;
 int servoPos;
 int stigning;
+int hastighed;
 
 void setup(){ 
   M5.begin(true, false, true);
@@ -16,16 +17,17 @@ void setup(){
   Serial.println("Ready.");
   servoPos =  0;
   stigning = 1;
+  hastighed = 1;
+  Atom.SetMotorSpeed(1, hastighed);
 }
 
 void loop() {
 
        
-        servoPos =  servoPos+stigning;
-        if(servoPos==180) stigning = -1;
-        if(servoPos==0) stigning = 1;
-
- 
+    servoPos = 45;
      Atom.SetServoAngle(1,servoPos);
      delay(2000);
+      servoPos = 0;
+      Atom.SetServoAngle(1,servoPos);
+      delay(2000);
 }

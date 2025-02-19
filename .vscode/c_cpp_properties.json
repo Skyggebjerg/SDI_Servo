@@ -8,8 +8,12 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "C:/Users/novozymesvr2/Documents/PlatformIO/Projects/SDI_Servo/include",
-                "C:/Users/novozymesvr2/Documents/PlatformIO/Projects/SDI_Servo/src",
+                "c:/Users/novozymesvr2/Documents/PlatformIO/Projects/SDI_Servo/include",
+                "c:/Users/novozymesvr2/Documents/PlatformIO/Projects/SDI_Servo/src",
+                "c:/Users/novozymesvr2/Documents/PlatformIO/Projects/SDI_Servo/.pio/libdeps/m5stack-atom/M5Atom/src",
+                "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                "c:/Users/novozymesvr2/Documents/PlatformIO/Projects/SDI_Servo/.pio/libdeps/m5stack-atom/FastLED/src",
+                "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                 "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                 "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -228,7 +232,6 @@
                 "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                 "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                 "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                 "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                 "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -238,14 +241,17 @@
                 "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
-                "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "C:/Users/novozymesvr2/Documents/PlatformIO/Projects/SDI_Servo/include",
-                    "C:/Users/novozymesvr2/Documents/PlatformIO/Projects/SDI_Servo/src",
+                    "c:/Users/novozymesvr2/Documents/PlatformIO/Projects/SDI_Servo/include",
+                    "c:/Users/novozymesvr2/Documents/PlatformIO/Projects/SDI_Servo/src",
+                    "c:/Users/novozymesvr2/Documents/PlatformIO/Projects/SDI_Servo/.pio/libdeps/m5stack-atom/M5Atom/src",
+                    "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                    "c:/Users/novozymesvr2/Documents/PlatformIO/Projects/SDI_Servo/.pio/libdeps/m5stack-atom/FastLED/src",
+                    "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                     "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                     "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -464,7 +470,6 @@
                     "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                     "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                     "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                    "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                     "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                     "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -474,7 +479,6 @@
                     "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
-                    "C:/Users/novozymesvr2/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                     ""
                 ]
             },

@@ -1,18 +1,31 @@
 #include <Arduino.h>
 
-// put function declarations here:
-int myFunction(int, int);
+#include <M5Atom.h> 
+#include "AtomMotion.h"
+//#include <PS4Controller.h>
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+AtomMotion Atom;
+int servoPos;
+int stigning;
+
+void setup(){ 
+  M5.begin(true, false, true);
+  Atom.Init();
+
+  //PS4.begin("4C:75:25:AD:78:7A");
+  Serial.println("Ready.");
+  servoPos =  0;
+  stigning = 1;
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+       
+        servoPos =  servoPos+stigning;
+        if(servoPos==180) stigning = -1;
+        if(servoPos==0) stigning = 1;
+
+ 
+     Atom.SetServoAngle(1,servoPos);
+     delay(2000);
 }
